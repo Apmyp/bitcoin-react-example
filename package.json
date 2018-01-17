@@ -18,7 +18,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy":
-      "now alias $(now build --public --name bitcoin-example --dotenv --token $NOW_TOKEN) bitcoin-apmyp --token $NOW_TOKEN"
+      "now alias $(now build --public --name bitcoin-apmyp --dotenv --token $NOW_TOKEN) bitcoin-apmyp --token $NOW_TOKEN"
   },
   "devDependencies": {
     "eslint-config-react-app": "^2.1.0"
