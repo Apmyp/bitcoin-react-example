@@ -1,3 +1,3 @@
 # Bitcoin / USD cost through websocket
 
-Demo: 
+[Demo](https://bitcoin-apmyp.now.sh) available.
