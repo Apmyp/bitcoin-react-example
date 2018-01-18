@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import bitcoin from "./bitcoin.png";
 
-const Card = styled.div`
+const Card = styled.div``;
+
+const Description = styled.div`
   border: 1px solid #ebebeb;
   background-color: #fff;
   font-size: 7.5rem;
@@ -21,11 +23,21 @@ const Image = styled.img`
   margin-right: 1rem;
 `;
 
+const Hint = styled.p`
+  font-size: 1.875rem;
+  color: #ddd;
+  margin: 1rem 0 0 0;
+  font-weight: 100;
+`;
+
 export default ({ price }) => {
   return (
     <Card>
-      <Image src={bitcoin} alt="Bitcoin logo" />
-      <Price>${price.toFixed(2)}</Price>
+      <Description>
+        <Image src={bitcoin} alt="Bitcoin logo" />
+        <Price>${price.toFixed(2)}</Price>
+      </Description>
+      <Hint>Realtime bitcoin rate</Hint>
     </Card>
   );
 };

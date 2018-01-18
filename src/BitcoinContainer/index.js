@@ -4,7 +4,7 @@ import BitcoinCard from "../BitcoinCard";
 
 class BitcoinContainer extends React.Component {
   state = {
-    tradeData: { price: 9000 }
+    tradeData: null
   };
 
   componentWillMount() {
